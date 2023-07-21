@@ -34,7 +34,7 @@ Input: 404 ; Output: 0.33
 
 class Solution:
     def optimizescan(self, battcap):
-        return (battcap / 250) ** 2 * 0.25 *2
+        return (battcap / 250) ** 2 * 0.25 * 0.5
         # Input type: Integer
         # return type: float
         #TODO: Write code below to return a float with the solution to the prompt.
